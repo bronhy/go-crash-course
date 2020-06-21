@@ -34,4 +34,16 @@ func main() {
 		fmt.Println("color is NOT red or blue")
 	}
 
+	// switch
+	switch 2 {
+	case 1 :
+		fmt.Println("1")
+		fallthrough
+	case 2:
+		fmt.Println("2")
+		fallthrough
+	case 3:
+		fmt.Println("3")
+	}
+
 }
